@@ -51,6 +51,7 @@ phases:
     #discard-paths: yes
     #file-format: JunitXml | CucumberJson
 artifacts:
+type: jar
   files:
      - target/lambda-1.0-SNAPSHOT.jar
     # - location
