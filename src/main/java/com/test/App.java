@@ -24,6 +24,6 @@ public class App implements RequestHandler<Map<String,String>, String>
         // process event
         logger.log("EVENT: " + gson.toJson(event));
         logger.log("EVENT TYPE: " + event.getClass());
-        return "200 ok";
+        return "200: Response Ok";
     }
 }
